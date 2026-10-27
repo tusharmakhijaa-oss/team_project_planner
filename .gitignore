@@ -1,0 +1,45 @@
+```gitignore
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Django generated files
+*.log
+local_settings.py
+
+# SQLite database files, if used locally
+db.sqlite3
+db.sqlite3-journal
+
+# Runtime JSON data - keep the directory structure
+db/*
+!db/.gitkeep
+
+# Generated board export files - keep the directory structure
+out/*
+!out/.gitkeep
+
+# Test and coverage files
+.coverage
+htmlcov/
+.pytest_cache/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+```
